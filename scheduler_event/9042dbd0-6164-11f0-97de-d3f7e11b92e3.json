@@ -1,0 +1,38 @@
+{
+  "entityType" : "SCHEDULER_EVENT",
+  "entity" : {
+    "additionalInfo" : null,
+    "configuration" : {
+      "msgType" : "START_IRRIGATION",
+      "msgBody" : {
+        "volumeInLitters" : 500
+      },
+      "metadata" : { }
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "enabled" : true,
+    "externalId" : null,
+    "id" : {
+      "entityType" : "SCHEDULER_EVENT",
+      "id" : "9042dbd0-6164-11f0-97de-d3f7e11b92e3"
+    },
+    "name" : "Evening",
+    "originatorId" : {
+      "entityType" : "ASSET",
+      "id" : "900313b0-6164-11f0-97de-d3f7e11b92e3"
+    },
+    "ownerId" : null,
+    "schedule" : {
+      "timezone" : "America/New_York",
+      "startTime" : 1664924400000,
+      "repeat" : {
+        "type" : "DAILY",
+        "endsOn" : 1893474000000
+      }
+    },
+    "type" : "START_IRRIGATION"
+  }
+}

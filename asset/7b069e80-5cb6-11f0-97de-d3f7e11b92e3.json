@@ -1,0 +1,70 @@
+{
+  "entityType" : "ASSET",
+  "entity" : {
+    "additionalInfo" : null,
+    "assetProfileId" : {
+      "entityType" : "ASSET_PROFILE",
+      "id" : "7b05db30-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "customerId" : {
+      "entityType" : "CUSTOMER",
+      "id" : "13814000-1dd2-11b2-8080-808080808080"
+    },
+    "externalId" : null,
+    "id" : {
+      "entityType" : "ASSET",
+      "id" : "7b069e80-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "label" : "Room 101",
+    "name" : "Room 101",
+    "ownerId" : null,
+    "type" : "AL_Room"
+  },
+  "relations" : [ {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7afe3a10-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "to" : {
+      "entityType" : "ASSET",
+      "id" : "7b069e80-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 83778
+  }, {
+    "additionalInfo" : null,
+    "from" : {
+      "entityType" : "ASSET",
+      "id" : "7b069e80-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "to" : {
+      "entityType" : "USER",
+      "id" : "7bb1d2a0-5cb6-11f0-97de-d3f7e11b92e3"
+    },
+    "type" : "Contains",
+    "typeGroup" : "COMMON",
+    "version" : 83814
+  } ],
+  "attributes" : {
+    "SERVER_SCOPE" : [ {
+      "booleanValue" : null,
+      "doubleValue" : 0.1154,
+      "jsonValue" : null,
+      "key" : "xPos",
+      "lastUpdateTs" : 1752059926644,
+      "longValue" : null,
+      "strValue" : null
+    }, {
+      "booleanValue" : null,
+      "doubleValue" : 0.1814,
+      "jsonValue" : null,
+      "key" : "yPos",
+      "lastUpdateTs" : 1752059926644,
+      "longValue" : null,
+      "strValue" : null
+    } ]
+  },
+  "calculatedFields" : [ ]
+}
